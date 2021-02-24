@@ -2,10 +2,9 @@
 
   
 
-![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
+![Landing Page](https://i.imgur.com/Y1Y7hGx.png)
 
   
-
 A basic LAMP stack environment built using Docker Compose. It consists of the following:
 
 * PHP
@@ -38,13 +37,13 @@ cd docker-lamp/
 
 cp sample.env .env
 
-// modify sample.env as needed
+// modify sample.env if needed
+
 docker-compose up -d
 
-// visit localhost
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost`.
+Your LAMP stack is now ready!! You can access it via `http://localhost:8000`.
 
 ##  Configuration and Usage
 
@@ -106,7 +105,7 @@ This will be used to store Apache logs. The default value for this is `./logs/my
 
 ## Web Server
 
-Apache is configured to run on port 80. So, you can access it via `http://localhost`.
+Apache is configured to run on port 8000. So, you can access it via `http://localhost:8000`.
 
 #### Apache Modules
 
@@ -154,9 +153,9 @@ May differ for PHP Verions <7.x.x
 
 ## phpMyAdmin
 
-phpMyAdmin is configured to run on port 8080. Use following default credentials.
+phpMyAdmin is configured to run on port 8081. Use following default credentials.
 
-http://localhost:8080/  
+http://localhost:8081/  
 username: root  
 password: deep70
 
