@@ -43,7 +43,7 @@ docker-compose up -d
 
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost:8000`.
+Your LAMP stack is now ready!! You can access it via http://localhost:8000.
 
 ##  Configuration and Usage
 
